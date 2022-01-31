@@ -11,9 +11,10 @@ public class GenerarTabla {
         int c = 0;
 
         while (c <= 10) {
-            System.out.printf(" %d x %d = %d \n", n, c, (n*c) );
+            System.out.printf(" %d x %d = %d \n", n, c, (n*c));
             c++;
         }
+
     }
 
 }
