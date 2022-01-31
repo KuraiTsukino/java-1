@@ -7,20 +7,39 @@ public class Esvocal {
 
         System.out.print("Ingrese una letra: ");
         char c = leer.next().charAt(0);
+        
+        switch (c) {
 
-        if (c == 'a' || c == 'A') {
-            System.out.printf("%s Es vocal\n", c);
-        } else if (c == 'e' || c == 'E') {
-            System.out.printf("%s Es vocal\n", c);
-        } else if (c == 'i' || c == 'I') {
-            System.out.printf("%s Es vocal\n", c);
-        } else if (c == 'o' || c == 'O') {
-            System.out.printf("%s Es vocal\n", c);
-        } else if (c == 'u' || c == 'U') {
-            System.out.printf("%s Es vocal\n", c);
-        } else {
-            System.out.printf("%s No es vocal\n", c);
+            case 'a':
+            case 'A':
+                System.out.printf("%s Es vocal\n", c);
+                break;
+
+            case 'e':
+            case 'E':
+                System.out.printf("%s Es vocal\n", c);
+                break;
+
+            case 'i':
+            case 'I':
+                System.out.printf("%s Es vocal\n", c);
+                break;
+
+            case 'o':
+            case 'O':
+                System.out.printf("%s Es vocal\n", c);
+                break;
+
+            case 'u':
+            case 'U':
+                System.out.printf("%s Es vocal\n", c);
+                break;
+
+            default:
+                System.out.printf("%s No es vocal\n", c);
+                break;
         }
+        
     }
     
 }
