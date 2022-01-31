@@ -11,7 +11,7 @@ public class Variables {
         // Variables. Tipo de variable. Nombre de la variable.
         String nombre;
         // int para variables numericas.
-        byte edad = -140;
+        byte edad = -120;
         // Para crear multiples variables: Se separan con comas y al final;
         int a, b, c;
         // Se asigna el valor a variable nombre.
@@ -32,7 +32,7 @@ public class Variables {
         var primerNombre = "Sandy ";
         var segundoNombre = "Kurai";
         var misNombres = primerNombre + segundoNombre;
-        //System.out.println("Mi nombre es: " + misNombres);
+        System.out.println("Mi nombre es: " + misNombres);
 
         char codigo = 65;
         System.out.println(codigo);
